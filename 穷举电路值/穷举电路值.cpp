@@ -119,7 +119,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 		cout<<1<<endl;
 		cout<<2<<endl;
-		
+		cout<<3<<endl;
 
 		double R1 = value[index1];
 		double R2 = value[index2];
