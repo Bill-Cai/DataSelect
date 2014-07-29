@@ -42,6 +42,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	double t1 = 0;
 	double t2 = 0;
 	bool Flag = TRUE;
+	double total = 0 ; 
+	int index1 = 0, index2 = 0;
+
+
 
 	if((f=fopen("data.txt","a+"))==NULL) //打开指定文件，判断是否存在
 	{
@@ -56,10 +60,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		i++;
 	}            
 
-	fclose(f);                                   
-
-	double total = 0 ; 
-	int index1 = 0, index2 = 0;
+	fclose(f); //关闭句柄                              
 
 	for(i = 0; i < 64; i++)
 		cout<<value[i]<<endl;
