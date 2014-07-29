@@ -116,6 +116,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	}
 
+
+		cout<<1<<endl;
+
+
 		double R1 = value[index1];
 		double R2 = value[index2];
 		cout<<"R1="<<R1<<" "<<"R2="<<R2<<"   total="<<total<<endl;
