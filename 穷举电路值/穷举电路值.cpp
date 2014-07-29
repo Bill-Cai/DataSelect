@@ -37,11 +37,11 @@ double value[64] = {0};
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int i = 0,j;
-	double k;
-	double t1;
-	double t2;
-	bool Flag;
+	int i = 0,j = 0;
+	double k = 0;
+	double t1 = 0;
+	double t2 = 0;
+	bool Flag = TRUE;
 
 	if((f=fopen("data.txt","a+"))==NULL) //打开指定文件，判断是否存在
 	{
